@@ -21,3 +21,5 @@ Binaries are available in "dist" folder.
 Python packages used: tkinter, scipy, numpy
 
 The executable loads data from the relative path "data/sample_data.txt". In the sample_data.txt file, each line must contain one data point, and there must be a newline at the end. Lines beginning with '#' are comments.
+
+![Program](screenshot2.png)
