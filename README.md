@@ -13,9 +13,11 @@ Visualization of a small data set for our example.
 
 ![Athlete example](screenshot1.png)
 
+The blue points are the athletes, and the red lines make up their convex hull. If a new athlete is inside the convex hull, it is of interest. As our database grows, the convex hull's accuracy to classify data increases.
+
 This mechanism can be extended to any dimension. If we consider that we have 3 relevant attributes for a professional athlete, every athlete will become a point in a 3D space. If we consider 4 attributes, we are in 4D and so on. After 3D, it becomes impossible to visualize.
 
-This program supports calculation of multidimensional convex hulls and classification of multidimensional data points. It contains as example a data set of customers of a company, with 6 attributes, meaning that each customer will be a point in a 6D space.
+This program supports calculation of multidimensional convex hulls and classification of multidimensional data points. It contains as an example a data set of customers of a company, with 6 attributes, meaning that each customer will be a point in a 6D space.
 
 Binaries are available in "dist" folder.
 Python packages used: tkinter, scipy, numpy
