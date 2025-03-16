@@ -11,7 +11,7 @@ To visualize this mechanism, we will imagine this simplified scenario. We want t
 
 Visualization of a small data set for our example. 
 
-
+![Athlete example](screenshot.png)
 
 This mechanism can be extended to any dimension. If we consider that we have 3 relevant attributes for a professional athlete, every athlete will become a point in a 3D space. If we consider 4 attributes, we are in 4D and so on. After 3D, it becomes impossible to visualize.
 
